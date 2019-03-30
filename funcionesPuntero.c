@@ -1,5 +1,5 @@
-
 /*
+
 void verSiAnda (void)
 {
     printf("funciona");
@@ -19,11 +19,10 @@ int cambiarReferencia (int *dato)
 }
 */
 
-/*
+
 int pedirEdad (int *edad)
 {
     int aux;
-    int sePudo;
     int retorno;
     retorno = 0;
     printf("ingrese su edad ");
@@ -39,7 +38,7 @@ int pedirEdad (int *edad)
     return retorno;
 
 }
-*/
+
 
 
 int dividir(int datoUno, int datoDos, float *resultado)

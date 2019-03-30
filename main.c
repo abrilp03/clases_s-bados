@@ -6,6 +6,24 @@ int main()
 {
     int sepudo;
     float respuesta;
+    int primeraEdad;
+    int segundaEdad;
+    pedirEdad(&primeraEdad);
+    pedirEdad(&segundaEdad);
+
+    sepudo = dividir(primeraEdad, segundaEdad,&respuesta);
+    if(sepudo == 1)
+    {
+        printf("la respuesta es %f", respuesta);
+    }
+    else
+    {
+        printf("no se puede");
+    }
+
+    /* //DIVISION
+    int sepudo;
+    float respuesta;
 
     sepudo = dividir(15,2,&respuesta);
     if(sepudo == 1)
@@ -16,6 +34,12 @@ int main()
     {
         printf("no se puede");
     }
+
+
+
+    */
+
+
 
 
     /*
