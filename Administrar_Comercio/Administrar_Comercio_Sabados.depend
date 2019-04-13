@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1553972508 source:c:\users\alumno\desktop\administrar_comercio_sabados\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
