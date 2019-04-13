@@ -3,6 +3,25 @@
 #include <string.h>
 #define TAMANIO 3
 
+////////////----------HACER PARA LA CLASE QUE VIENE----------////////////
+typedef struct
+{
+int edad;
+float altura;
+char nombre[7];
+char apellido[7];
+}alumno;
+
+//carga
+//calidacion (inventar)
+//ordenamiento
+//la mejor nota
+//el mas alto
+//de los que aprobaron el mas alto
+//de los que miden mas de un metro ochenta, el promedio
+
+////////////----------HACER PARA LA CLASE QUE VIENE----------////////////
+
 
 typedef struct{
     float precio ;
@@ -41,13 +60,13 @@ typedef struct{
 int main()
 {
 
-    float precios[TAMANIO] ;
-    char codigos[TAMANIO][7];
+    //float precios[TAMANIO] ;
+    //char codigos[TAMANIO][7];
     //char codigos[7][TAMANIO];
-    int minumero;
-    Producto unProducto;
+    //int minumero;
+    //Producto unProducto;
     Producto ArrayDeProductos[TAMANIO];
-    Perro miPerro;
+    //Perro miPerro;
 
     int i;
     int j;
@@ -99,9 +118,9 @@ int main()
                 ArrayDeProductos[i]=ArrayDeProductos[j];
                 ArrayDeProductos[j]=aux;
 
-
-
             }
+
+
             /*
             //arrays paralelos, debo ordenar cada elemento
               if(precios[i]<precios[j])
