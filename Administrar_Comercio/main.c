@@ -13,7 +13,7 @@ char apellido[7];
 }alumno;
 
 //carga
-//calidacion (inventar)
+//validacion (inventar)
 //ordenamiento
 //la mejor nota
 //el mas alto
